@@ -1,6 +1,6 @@
 # gg-devops-caching-service
 
-By Corey Gale (corey@gumgum.com)
+By Corey Gale (`corey[at]gumgum.com`)
 
 ## Example requests
 
