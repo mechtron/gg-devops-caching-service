@@ -4,7 +4,7 @@ RUN apk --update add --no-cache redis
 RUN pip3 install --upgrade pip
 
 RUN pip3 install setuptools
-RUN apk add --no-cache --virtual .keras-build-deps g++ python3-dev libffi-dev
+RUN apk add --no-cache --virtual python3-dev libffi-dev
 
 COPY requirements.txt /tmp/requirements.txt
 RUN pip3 install -r /tmp/requirements.txt
