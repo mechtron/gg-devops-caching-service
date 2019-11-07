@@ -17,7 +17,7 @@ Response: `{"code": 200}`
 
     curl http://localhost:8000/get/test
 
-Response: `{"value: "Hello world!"}`
+Response: `{"value: "Hello GumGum"}`
 
 ## Docker image
 
