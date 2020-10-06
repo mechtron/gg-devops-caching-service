@@ -6,13 +6,13 @@ services:
     build: .
     restart: always
     ports:
-     - "8000:8000"
+     - 8000
     environment:
       SERVER_PORT: 8000
-      REDIS_HOSTNAME: redis
+      REDIS_SERVER: redis
     depends_on:
       - redis
 
   redis:
     container_name: cache
-    image: "redis:alpine"
+    image: "redis:alpinelinux"
